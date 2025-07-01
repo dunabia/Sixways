@@ -430,7 +430,7 @@ div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotp
 }
 
 div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-custom-questions-range-question.yotpo-review-range-question-top {
-    margin: 0;gap:0!important;
+    margin: 0;
 }
 
 div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-mobile][style] p#yotpo-headline-reviews {
@@ -498,8 +498,8 @@ div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-mobile]
 
 div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-custom-questions-range-question.yotpo-review-range-question-top .yotpo-custom-questions-range-question-wrapper {
     margin: 0!important;
-    width: 100%!important;
-    max-width: 100%;
+
+   
 }
 
 div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-custom-questions-range-question.yotpo-review-range-question-top .yotpo-custom-questions-range-question-wrapper .yotpo-progress-bar-value {}
