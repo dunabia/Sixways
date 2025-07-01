@@ -209,7 +209,22 @@ body {
 }
 
 /* CSS widget */
-div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] p#yotpo-headline-reviews {flex-basis: 100%;text-align: left;font-weight: 700;}
+@font-face {
+  font-family: 'Gestura';
+  src: url('https://cdn.shopify.com/s/files/1/0708/4605/4708/files/Gestura-1.otf?v=1751370722') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#yotpo-reviews-main-widget {
+  --primary-font-family: "Gestura", sans-serif !important;
+  --primary-font-weight: 700 !important;
+  --primary-font-style: normal !important;
+  --secondary-font-family: "Gestura", sans-serif !important;
+  --secondary-font-weight: 400 !important;
+  --secondary-font-style: normal !important;
+}
+div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] p#yotpo-headline-reviews {flex-basis: 100%;text-align: left;font-weight: 700;font-size:30px;}
 
 div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] .yotpo-head {
     flex-basis: 100%;
@@ -417,7 +432,6 @@ div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotp
 div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-custom-questions-range-question.yotpo-review-range-question-top {
     margin: 0;
 }
-
 
 
 /*# sourceMappingURL=main.css.map */
