@@ -561,5 +561,19 @@ div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-mobile]
 .yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] h2.yotpo-modal-header-heading {
     font-weight: 700;
 }
+div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-mobile][style] .yotpo-review .yotpo-review-left-panel span.yotpo-reviewer-name.unselectable {
+    font-size: 18px;
+    line-height: 1;
+}
+
+div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-review .yotpo-review-left-panel span.yotpo-reviewer-name.unselectable + div {
+    display: flex;
+    align-items: center;
+}
+
+div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-review .yotpo-review-left-panel .yotpo-reviewer-details-verified span.yotpo-reviewer-verified-buyer-text.unselectable {
+    line-height: 1;
+    padding-top: 3px;
+}
 
 /*# sourceMappingURL=main.css.map */
