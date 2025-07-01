@@ -209,6 +209,7 @@ body {
 }
 
 /* CSS widget */
+/* CSS widget */
 div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] p#yotpo-headline-reviews {flex-basis: 100%;text-align: left;font-weight: 700;}
 
 div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] .yotpo-head {
@@ -355,6 +356,7 @@ div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotp
 div#yotpo-reviews-main-widget[class*=yotpo-display-][class*=yotpo-device-] .yotpo-layout-header-wrapper .yotpo-bottom-line-question-wrapper-vertical .yotpo-custom-questions-range-question.yotpo-review-range-question-top .yotpo-progress-bar {
     background: #5B5B5B;
 }
+
 
 
 /*# sourceMappingURL=main.css.map */
