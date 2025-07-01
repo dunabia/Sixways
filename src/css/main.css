@@ -216,7 +216,7 @@ body {
   font-style: normal;
 }
 
-#yotpo-reviews-main-widget {
+.yotpo-reviews-main-widget {
   --primary-font-family: "Gestura", serif !important;
   --primary-font-weight: 700 !important;
   --primary-font-style: normal !important;
@@ -224,6 +224,7 @@ body {
   --secondary-font-weight: 400 !important;
   --secondary-font-style: normal !important;
 }
+.yotpo-reviews-main-widget * {font-family: "Gestura", serif !important;}
 div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] p#yotpo-headline-reviews {flex-basis: 100%;text-align: left;font-weight: 700;font-size:30px;}
 
 div#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"] .yotpo-head {
